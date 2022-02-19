@@ -6,16 +6,14 @@ public class Main {
 
         Scanner k = new Scanner(System.in);
 	System.out.println("Ввдете температуру по °C");
-        int number1 = k.nextInt();
+        int g = k.nextInt();
 
     long a = 9;
     long b = 32;
     long c = 5;
 
-        System.out.println("введенныя температура в °C");
-        System.out.println(number1);
-        System.out.println("значение по °F");
-        System.out.println(number1*a/c+b);
+        System.out.println("введенныя температура по шкале °C:  " + (g));
+        System.out.println("значение по шкале °F:  " + (g*a/c+b));
 
     }
 }
